@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.xeon.App">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="720" height="240"/>
+    </constraints>
+    <properties>
+      <maximumSize width="230" height="130"/>
+      <minimumSize width="230" height="130"/>
+      <opaque value="true"/>
+      <preferredSize width="230" height="130"/>
+    </properties>
+    <border type="line" title="NGINX">
+      <font/>
+      <title-color color="-4473925"/>
+      <color color="-12993668"/>
+    </border>
+    <children>
+      <vspacer id="7a45a">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="7c0bb" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="5eefa" class="javax.swing.JLabel" binding="ngPic">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="nginx.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f5a05" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="726a5" class="javax.swing.JButton" binding="startButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="90" height="20"/>
+                <preferred-size width="90" height="20"/>
+                <maximum-size width="90" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14632078"/>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font name="DejaVu Sans Mono" size="12"/>
+              <text value="Start"/>
+            </properties>
+          </component>
+          <component id="87493" class="javax.swing.JButton" binding="stopButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="90" height="20"/>
+                <preferred-size width="90" height="20"/>
+                <maximum-size width="90" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-2159360"/>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <focusable value="true"/>
+              <font name="DejaVu Sans Mono" size="12"/>
+              <text value="Stop"/>
+            </properties>
+          </component>
+          <component id="8459b" class="javax.swing.JButton" binding="restartButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="90" height="20"/>
+                <preferred-size width="90" height="20"/>
+                <maximum-size width="90" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-25344"/>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font name="DejaVu Sans Mono" size="12"/>
+              <text value="Restart"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="4307e" class="javax.swing.JLabel" binding="status">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="status"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
