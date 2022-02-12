@@ -9,7 +9,9 @@ This is my second app GUI on java (first on JavaFX) - created to improve skills 
 # Run software
 
 `git clone https://github.com/iBrabus/nginx-control-panel`
+
 `cd nginx-control-panel`
+
 `java -jar out/artifacts/java_gui_intro_jar/java-gui-intro.jar`
 
 I would love to get feedback. Thanks!
